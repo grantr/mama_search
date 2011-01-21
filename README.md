@@ -37,7 +37,7 @@ rake es:start
 
 Start elasticsearch.  Elasticsearch is run in the foreground and should be stopped via <code>Ctrl+C</code>.
 
-## ISSUES
+## Issues
 
 * The default elasticsearch executable makes it hard to move config files out of
   the project root, so configuration stays in elasticsearch/server/config for now
@@ -45,7 +45,7 @@ Start elasticsearch.  Elasticsearch is run in the foreground and should be stopp
   global client in the initializer should remain commented.
 
 
-## CREDITS
+## Credits
 
 Mama Search is heavily inspired by [Mama Cass](http://github.com/carbonfive/mama_cass)
 
