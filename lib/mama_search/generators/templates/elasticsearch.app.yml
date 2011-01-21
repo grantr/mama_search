@@ -1,0 +1,5 @@
+development:
+  servers: 127.0.0.1:9200
+
+test:
+  servers: 127.0.0.1:9200

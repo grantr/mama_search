@@ -1,0 +1,12 @@
+Description:
+  Install elasticsearch 0.14.2 server and configuration files.
+
+Example:
+  `rails g mama_search:install`
+
+  elasticsearch/server/                    # elasticsearch server
+  config/elasticsearch.yml                 # keyspace configuration
+  config/elasticsearch/elasticsearch.in.sh # start up options
+  config/elasticsearch/elasticsearch.yml   # keyspace definitions
+  config/elasticsearch/logging.yml         # logging configuration
+  config/initializers/elasticsearch.rb     # elasticsearch connection object configuration
