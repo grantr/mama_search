@@ -32,7 +32,7 @@ This installs the following directories and files:
 ## Rake tasks
 
 <pre>
-rake elasticsearch:start
+rake es:start
 </pre>
 
 Start elasticsearch.  Elasticsearch is run in the foreground and should be stopped via <code>Ctrl+C</code>.
