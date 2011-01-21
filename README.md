@@ -37,6 +37,14 @@ rake es:start
 
 Start elasticsearch.  Elasticsearch is run in the foreground and should be stopped via <code>Ctrl+C</code>.
 
+## ISSUES
+
+* The default elasticsearch executable makes it hard to move config files out of
+  the project root, so configuration stays in elasticsearch/server/config for now
+* Rubberband tries to autodiscover nodes immediately. Until this is changed, the
+  global client in the initializer should remain commented.
+
+
 ## CREDITS
 
 Mama Search is heavily inspired by [Mama Cass](http://github.com/carbonfive/mama_cass)
