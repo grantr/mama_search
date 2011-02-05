@@ -1,0 +1,2 @@
+cluster:
+  name: <%= (rand*1000000).to_i.to_s(16) %>

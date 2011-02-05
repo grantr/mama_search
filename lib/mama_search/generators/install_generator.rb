@@ -18,7 +18,7 @@ module MamaSearch
         template 'elasticsearch.app.yml', 'config/elasticsearch.yml'
         #copy_file 'elasticsearch.in.sh', 'config/elasticsearch/elasticsearch.in.sh'
         #copy_file 'logging.yml', 'config/elasticsearch/logging.yml'
-        #copy_file 'elasticsearch.yml', 'config/elasticsearch/elasticsearch.yml'
+        template 'elasticsearch.yml', 'elasticsearch/server/config/elasticsearch.yml'
         copy_file 'elasticsearch.rb', 'config/initializers/elasticsearch.rb'
       end
 
