@@ -1,5 +1,4 @@
-require 'mama_search/generators/install_generator'
-require 'mama_search/tasks'
+require 'mama_search/railtie'
 
 module MamaSearch
 end
