@@ -7,7 +7,7 @@ module MamaSearch
 
       def install
         say 'Installing elasticsearch...' 
-        source = File.join File.dirname(__FILE__), '/../../../vendor/elasticsearch-0.14.2'
+        source = File.join File.dirname(__FILE__), '/../../../vendor/elasticsearch-0.16.0'
         destination = 'elasticsearch/server'
         directory source, destination 
         chmod "#{destination}/bin/", 0755
